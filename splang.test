@@ -1,0 +1,87 @@
+exec <
+
+	## variable declerations ##
+	var &a;
+	var £r;
+	var $aa;
+
+	## variable assignments ##
+
+	&a = 1;
+	&b = 5;
+	£d = true;
+	£c = false;
+
+	£a = false;
+	&e = 6;
+	&d = bar(6);
+
+	## function calls ##
+	foo( 5 );
+	bar( 5, 6 );
+
+	## set funtions ##
+	create $set;
+	delete $set;
+	print $set;  ## output ##
+ 
+	## input ##
+	readFile("myText");
+
+	## set operations ##
+	$set [+] &e;
+	$set [-] &k;
+	$set [++] $set2 [++] $set3;
+	$set [--] $set2;
+	$set [//] $set2;
+	$set [U] $set2 [U] $set3;
+	$set [%%] $set2;
+
+	## set assignment ##
+	$set = { 15, 22, 4, &abc, &klm };
+	$K = {0,1, $aaa, { 5, 6, $zz}, 9};
+	$L = {0,1, $aaa, { 5, {}, $zz}, 9};
+	$A = $A [+] &abc;
+
+	&y = is_empty($A);
+	&z = get_size($F129);
+
+	## if statement ##
+	if ($A << ($B [--] $C) ){ &c = 1; };
+
+	if ( ( ( &z < 2 ) aNd ( $G > 2 ) ) oR  ( $A << $set )   ) { £c = false; };
+
+	## if else in if else statement ##
+	if ( &z < 2  ) 
+		{ £c = false; } 
+	else 
+		{   if ( &z < 2  ) 
+			{ £c = false; } 
+			else 
+			{  £c = true;  };  };
+
+	## while loop ##
+	while( true == false  ){ 
+		  £a = false;  
+		  }
+
+	## do while loop ##
+	do{ 
+		£a = false;  
+	}while( true == false );
+
+	## return statement ##
+	return false;
+    	
+	## method implementation ##
+	myMethod( var &x , var £e ) {
+	var &t;
+	&t= 6;
+	}
+
+
+	
+
+
+
+> end
